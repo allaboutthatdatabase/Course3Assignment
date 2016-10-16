@@ -12,6 +12,7 @@ This is my solution to the Coursera Data Cleansing class' final project.
 ### Trasformation Performed
 
 In the file run_analysis.R, the following transformations are performed:
+
 1.  Read in the relevant data files from the raw data folder into memory.
 2.  Combine the "test" and "train" files together with rbind.
 3.  Use grep to find the measures with "mean()" or "std()" in their names.  Only use those variables in continuing calculations.
